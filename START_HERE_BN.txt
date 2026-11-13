@@ -1,0 +1,16 @@
+ShopEase Flutter Assignment
+
+১) ZIP extract করুন।
+২) Terminal-এ একটি Flutter project তৈরি করুন:
+   flutter create --platforms=android,ios shopease
+৩) এই ZIP-এর lib, pubspec.yaml, analysis_options.yaml ফাইলগুলো নতুন project-এ copy/replace করুন।
+৪) Project folder-এ:
+   flutter pub get
+   flutter run
+
+বিস্তারিত নির্দেশনা README.md-এ আছে।
+
+গুরুত্বপূর্ণ:
+- DummyJSON API read-only; CRUD Hive local database-এ করা হয়েছে।
+- প্রথমবার API data আনতে internet লাগবে; এরপর cached data offline-এ দেখা যাবে।
+- iOS build করতে macOS + Xcode প্রয়োজন।
